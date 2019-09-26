@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Unit 2</title>
+    	<link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+<body>
+
+		<center><div class="topnav">
+				<a class="active" href="Home.html">Home</a>
+				<a href="Unit 2.html">Unit 2</a>
+				<!--
+					<a href="Unit 3.html">Unit 3</a>
+				<a href="Unit 4.html">Unit 4</a>
+				<a href="Unit 5.html">Unit 5</a>
+				<a href="Unit 6.html">Unit 6</a>
+				<a href="Unit 7.html">Unit 7</a>
+				<a href="Unit 8.html">Unit 8</a>
+				<a href="Unit 9.html">Unit 9</a>
+				<a href="Unit 10.html">Unit 10
+				</a> 
+			-->
+			  </div> </center> 
+
+		
+	
+	<h1>2.2 </h1>
+	<h1>I Have A Dream</h1>
+
+	<p id="Question">Q1:In your own words, describe what event driven programming is. What event handler was used in the I Have a Dream app? How was it used? </p>
+			  <p id="Answer">A1:Event driven programming is a programming where the program's behavior is controlled by the written code and how it responds to certain events such as button clicks.
+				  In the I Have a Dream app, buttons were used to make the player play the speech from Martin Luther King Jr. 
+			  </p>
+		<p id="Question">Q2:Is it possible to create an app without event driven programming? Explain.</p>
+			  <p id="Answer">A2:It is possible to create an app without event driven programming, but it will not have many options or functions like other apps. The functionality will be very limited. </p>
+		<p id="Question">Q3:What elements and components make up the User Interface (UI) for the I Have A Dream app?</p>
+			  <p id="Answer">A3:The elements and components that make up the UI was a black background, the MLK picture, and two labels, the title and the speech caption.</p>
+		<p id="Question">Q4:What are some of the elements that make up the UI for a car? A vending machine?</p>
+			  <p id="Answer">A4:Elements that make up the UI for a car is a dashboard, fuel meter, milage meter, speedometer, steering wheels, radio controls, A/C buttons, and more. A vending machine
+				  is basically a display with letters and buttons for choosing what you want. It also has a change dispenser and bill acceptor.
+			  </p>
+
+	<h1>2.3</h1>
+	<h1>The Internet and the Cloud</h1>
+
+	<p id="Question">Q1:In your own words, give a sentence that would explain to a friend the difference between the WWW and the Internet. </p>
+			  <p id="Answer">A1: WWW is a web and is a way to access information from the Internet while the Internet is a giant connection of networks which connects millions and millions of computers together.</p> 
+	<p id="Question">Q2:(POGIL) List a beneficial effect and a harmful effect for a social media app that you discussed in your POGIL group. 
+		Are the effects on society, culture, or economics? Include a screenshot of the Venn diagram you made with your group.</p>
+			<p id="Answer">A2:
+				<h2 id="beneficial">Beneficial effects of Instagram:</h2>
+
+					<ul>Reconnecting with old friends and family members</ul>
+					<ul>Easier access to news and articles that are relevant</ul>
+
+				<h2 id="harmful">Harmful effects of Instagram:</h2>
+
+					<ul>Can locate people's location and expose where people are</ul>
+					<ul>Everything is transparent</ul>
+					<br><br>
+						<p id="effects">The effects will be on society and culture, maybe a little of economics too.</p>
+							<br><br>
+					<center> <img alt ="Venn diagram" src="Images/venn diagram.png">
+						</center>
+	<p id="Question">Q3:(POGIL) If you were a developer of one of the social media apps that you discussed, how would you reduce the harmful effects?</p>
+				<p id="Answer">A3:For Instagram, we would disable likes or disable comments so it would reduce cyber bullying, hate, and other harmful effects it can have to others in the app. 
+					For Snapchat, identify inappropriate content so it would block the image or delete it to create a safer community. </p>
+	</p>
+
+	<h1>2.4</h1>
+	<h1>I Have A Dream, Part 2</h1>
+
+	<p id="Question">Q1:What components make up the User Interface (UI) for this enhanced version of the I Have A Dream app?</p>
+		<p id="Answer">A1:The components that make up the UI for the enhanced version of the I Have A Dream App are photos of MLK, Malcolm X, MLK and Malcolm X, black background, and labels.</p>
+	<p id="Question">Q2:A computational artifact is something created by a human using a computer. We've just created a mobile app, which is certainly an example of such a artifact. 
+		Given examples from your own experience of computational artifacts that you've created -- images, videos, presentations, mash-ups -- and describe the software you used to create them.</p>
+		<p id="Answer">A2:Examples of my own experience of computational artifacts that I've created are videos for AME, Honors Chemistry, and AP Composition  and Language. <br>Most of these videos were classwork
+			of my peer's ideas and some of them were songs.The software I used to create them was Adobe Premiere Pro CC 2018, this software allows me to cut clips, cut audio, add effects, change volume of audio, 
+			fit and move clips of videos and audio around. </p>
+
+	<h1>2.5</h1>
+	<h1>Mobile Devices and Apps: Hardware and Software</h1>
+
+	<p id="Question">Q1:Give an example of a special purpose computer that you are familiar with and briefly describe its hardware and its software.</p>
+		<p id="Answer">A1:ATM machines are an example of a special purpose computer and its hardware is a giant box with a card acceptor and change dispenser. The software allows you to access your card when
+				you plug it in and choose how much money to take out.
+			</p>
+	<p id="Question">Q2:Explain in your own words the difference between running your app by "Connecting to the Companion" and running your app by "Packaging" it.</p>
+		<p id="Answer">A2:"Connecting to the Companion" allows the MIT Companion to transfer and translate the software of App Inventor into an app that the Android can understand and run.
+				"Packaging" the app allows the App Inventor code to be translated into binary code where it will turn into an .apk file which an Android can download and run easily.
+			</p>
+	<p id="Question">Q3:As we learned in this lesson, a byte is about the same amount of memory as a character, such as the letter 't'. There are approximately 7 million characters in all of the Harry Potter novels combined.
+		 How many bytes of memory would all of the Harry Potter novels take up? How many copies of the Harry Potter novels would fit on a 7 Gigabyte flash drive. (Remember 1 Gigabyte is 1 billion bytes.)</p>
+		<p id="Answer">A3:If 1 character = 1 byte, then all of the Harry Potter novels will take up around 7 million bytes. Now 1 gigabyte = 1 billion bytes, so 7,000,000,000 bytes / 7,000,000 bytes = 1000 which is the answer to
+				 the number of copies of Harry Potter novels that will fit onto a 7 gigabyte drive. </p>
+
+	<h1>2.6</h1>
+	<h1>Algorithm Basics</h1>
+
+	<p id="Question">Q1:For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?</p>
+		<p id="Answer">A1:Yes, the robot can move forward. The robot can move forward after 2 steps forward, but in the beginning CAN_MOVE(right) would be false.</p>
+	<p id="Question">Q2:Write an algorithm using the 4 commands above to navigate the robot through the maze to reach the gray square. 
+		You can pretend that one of you is the robot and walk through your algorithm with your fingers on the maze. Are there commands that are repeated in your algorithm? Circle them.</p>
+		<p id="Answer">A2:<font color="coral">Move forward x 2,</font>  turn right, <font color="coral">move forward x 4,</font> turn left, <font color="coral">move forward x 2,</font> the ones that are repeated are the move_forward commands. </p>
+			<p><font color="coral">MOVE_FORWARD, MOVE_FORWARD,</font> ROTATE_RIGHT, <font color="coral">MOVE_FORWARD, MOVE_FORWARD,MOVE_FORWARD, MOVE_FORWARD,</font> ROTATE_LEFT, 
+				<font color="coral">MOVE_FORWARD, MOVE_FORWARD,</font> </p>
+	<p id="Question">Q3:Let's replace the repeated commands with a repetition control structure. The following command can be used to repeat a block of commands (see image in 2.6): <br> 
+		Rewrite your algorithm above using Repeat n times control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times.</p>
+			<p id="Answer">A3:Repeat 2 times(MOVE_FORWARD), ROTATE_RIGHT, Repeat 4 times(MOVE_FORWARD), ROTATE_LEFT, Repeat 2 times(MOVE_FORWARD)</p>
+	<p id="Question">Q4:Write a more general algorithm to navigate a maze using IF commands and a REPEAT UNTIL GoalReachedcommand, which tests if the robot has reached the gray square goal. <br> 
+		a) Which part(s) of the algorithm above are selection control structures? <br>
+		b) Which part of the algorithm above is a repetition control structure? Remember a control structure can consist of multiple statements. <br>
+		c) Does the algorithm solve the maze above and navigate the robot to the goal, the gray square? How many times does it need to run through the loop? <br>
+		d) Create a maze this algorithm will NOT be able to solve!  Include a description or a photo of your drawing of such a maze in your portfolio <br>
+	</p>
+	<p id="Answer">A4:REPEAT UNTIL GoalReached
+			{
+				IF (CAN_MOVE forward)
+					MOVE_FORWARD
+				IF (CAN_MOVE left)
+					ROTATE_LEFT 
+				IF (CAN_MOVE right)
+							 ROTATE_RIGHT
+						 }			
+			<br>
+			a:IF (CAN_MOVE forward), IF (CAN_MOVE left), IF (CAN_MOVE right) are the selection control structures.
+			<br>
+			b:REPEAT UNTIL GoalReached is a repetition control structure.
+			<br>
+			c:Yes, it has to run 8 times.
+			<br>
+			d: <br> 
+			<center> <img alt="maze" src="Images/maze.png"> </center>
+			</p>
+	<p id="Question">Q5:(Portfolio) Write an algorithm for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. 
+		Use simple commands like hot_wash and cold_wash. You may also use the control structures IF and REPEAT n times. Identify the parts of your algorithm that are examples of Sequence, Selection, and Repetition.</p>
+		<p id="Answer">A5: <ul><font color="green">REPEAT 10 TIMES</font>{ <br> 
+			<font color="brown">IF (ITEM_CUPS)</font>{ <br>
+				<font color="yellow">HOT_WASH</font><br>
+			} <font color="brown">ELSE IF(ITEMS_SAUCERS)</font>{ <br>
+				<font color="yellow">COLD_WASH</font><br>
+			} <br>
+			} <br> </ul> </p>
+			<p>REPEAT 10 TIMES = <font color="green">Repetition</font> , HOT_WASH and COLD_WASH = <font color="yellow">Sequence</font>, IF (ITEM_CUPS) and ELSE IF(ITEMS_SAUCERS) = <font color="brown">
+				Selection </font>
+			</p>
+
+	<h1>2.7</h1>
+	<h1>I Have A Dream Projects</h1>
+
+	<p id="Question">Q1:In this lesson, you created your own sound board app. Give a brief description of it here. Describe its theme, if it has one, and what particular sounds (music or speeches) it plays. 
+		Attach or embed your video.</p>
+		<p id="Answer">A1:Our soundboard app was based off of natural sounds and is suppose to be calming somewhat like meditation. The sounds it plays are ocean waves, blowing wind, and rain. 
+				<center>  <h1>Video Demonstration</h1> <!-- <embed src="Images/NatureSoundboardVideo.MOV" autostart="0" height="400" width="400"> --> 
+					<video width="600" height="350" controls>
+							<source src="Images/NatureSoundboardVideo.MOV" type="video/mp4">
+						</video>
+				</center>
+		</p>
+	<p id="Question">Q2:Describe how you designed your app's UI. What components does it use?</p>
+	<p id="Answer">A2:We designed our app's UI with the thoughts of clicking a button to play and pause the sound, having a picture in the background to represent the sound, the swiping mechanics to move on to the next
+		sound.
+	</p>
+	<p id="Question">Q3:Now that you've had some experience building apps in App Inventor, what do you think about programming. Is it a creative activity? In what ways does it allow you to express yourself?</p>
+	<p id="Answer">A3:I think programming is a fun and unique experience for many. It allows people to express their creativity and work through apps. It shows diversity and actions through the app and you, it can
+		also express you as a creative thinker, hard worker, problem solver, and way more!
+	</p>
+
+	<h1>2.8</h1>
+	<h1>What is Abstraction?</h1>
+
+	<p id="Question">Q1:Write an explanation of abstraction, including at least one example, in your own words.</p>
+	<p id="Answer">A1:It is a simplified idea of something complex. An example of an abstraction is a blueprint of a building because it gives a general idea on how the building will look like and where everything will go.</p>
+	<p id="Question">Q2:Give 2-3 examples of abstractions in everyday life not identified in the lecture.</p>
+	<p id="Answer">A2:Doll houses are abstractions of mansions and giant houses, they are just smaller and made as toys for kids. Another example of abstractions are the plays in sports of football, basketball, and more. 
+		They are simplified small ideas of how players will run the game and try their best to win, it shows the basic information for what the role of each player has to do.
+	</p>
+	<p id="Question">Q3:Consider an example of software, a mobile application, or a web site and explain how it is an abstraction.</p>
+	<p id="Answer">A3:<a href="http://www.google.com">Google</a> and its search engine is an abstraction since it allows the searcher to find what they want and what is relevant to them. It allows the user to view
+	what they searched for and the engine breaks everything down and tracks for what they want. The user sees it as a simple idea of typing and searching, but in reality the web site is sorting everything out and finding
+	the most appropriate and relevant answer to their search. </p>
+
+	<h1>2.9</h1>
+	<h1>Binary Numbers</h1>
+
+	<p id="Question">Q1:Figure out what decimal value is represented by the following binary number 0011 1010 0011</p>
+		<p id="Answer">A1:The decimal value will be 931. (1+2+32+128+256+512)</p>
+	<p id="Question">Q2:Represent the decimal value 517 as a binary number.</p>
+		<p id="Answer">A2:1000000101</p>
+	<p id="Question">Q3:The binary number system is base 2 and has 2 digits. The decimal number system is base 10 and has 10 digits. The octal system is base 8. How many digits does it have? 
+		What are they, starting at 0?</p>
+		<p id="Answer">A3:Octal system has 8 digits. It starts from 0 - 7.</p>
+	<p id="Question">Q4:Suppose the number 523 is a base-8 octal number. What would its value be in decimal? In binary?</p>
+		<p id="Answer">A4:In decimal it would be 339 (3+16+320) and it would be 101010011 in binary.</p>
+	<p id="Question">Q5:Challenging: Convert the base-5 number 243 into decimal.</p>
+		<p id="Answer">A5:It would be 73 in decimal. (3+20+50)</p>
+
+	<h1>2.10</h1>
+	<h1>Hardware Abstractions: Logic Gates</h1>
+
+<p id="Question">Q1:(POGIL) Insert a screenshot of your Logicly diagram for the Exclusive-OR circuit below.</p>
+	<p id="Answer">A1:<center><img src="Images/ExclusiveOR.png"></center></p>
+<p id="Question">Q2:(POGIL) Consider these three things: The OR gate (i.e., the physical circuit), the Boolean OR function (as defined by its truth table), and the OR symbol. 
+	How would arrange them from most abstract to least abstract? And what criterion would you use to determine their order?</p>
+	<p id="Answer">A2:<h1>Most abstract to least abstract: </h1>
+			<ul>The OR Symbol, the Boolean/function, OR Gate </ul> <br>  
+	<p>To determine their order, we used abstraction and the simplified ideas of it. The symbol is an abstract text, gate is an image, and the OR function is a table that represents true/false.
+			</p>
+<p id="Question">Q3:Consider these three things: A binary digit (e.g., 1 or 0), the flip-flop circuit diagram (), and the flip-flop circuit (i.e., the physical circuit). 
+	How would you arrange them from most abstract to least abstract and what criterion would you use to determine their order?</p>
+	<p id="Answer">A3:<h1>Most abstract to least abstract:</h1>
+		<ul>A binary digit, flip-flop circuit diagram, and the flip-flop circuit.</ul>
+	<p>I determined their order by also abstraction. Binary digits are numbers but can be represented in many different ways with different ideas, flip-flop circuit diagram is the blueprint of the circuit and can't really be 
+		seen directly or described, and flip-flop circuit can be easily shown by pictures and see it step by step on how it works. </p>
+
+	<h1>2.11</h1>
+	<h1>Impacts of CS: The Digital Explosion</h1>
+
+	<p id="Question">Q1:What is a bit and what does it mean to say that "it's all just bits"? (Koan 1) Give examples of the things today that are stored in bits?</p>
+		<p id="Answer">A1:A bit is a really small unit of information that can be seen as 0 or 1. The meaning of "it's just all bits" means the whole thing on the computer are just bits combined and how they form together
+			to get what we see today on a computer. Examples of things that are stored in bits are songs of Spotify, Youtube videos, library books online, DMV records, and more!</p>
+	<p id="Question">Q2:Describe, in your own words, Moore's Law.</p>
+		<p id="Answer">A2:Moore's Law is the law on how the speed and processing power of computers will double every couple of years. So every few years, computers will become more and more powerful than
+			before.</p>
+	<p id="Question">Q3:Give an example of how the digital explosion is "neither good nor bad" but has both positive and negative implications.</p>
+		<p id="Answer">A3:An example of digital explosion is location tracking and it can have both positive and negative implications. Location tracking can save lives and help people in danger during emergencies, but 
+			it can also be potentially bad as it can allow others to stalk, follow, and access to the location on where you are. There are pros and cons, but overall it is seen more as "neither good nor bad". </p>
+	<p id="Question">Q4:Find and summarize a news article that talks about the positive or negative impacts of a computing innovation. Is the technology itself positive or negative? 
+		Or have people used the technology in positive and/or negative ways?  Don't forget to LINK to your article!</p>
+		<p id="Answer">A4:A <a href="https://www.digitaltrends.com/computing/forget-navi-ryzen-amd-leadership/">news article </a> I chose was about the company Advanced Micro Devices(AMD) and their new CPUs that they released, the Ryzen 3000s. This technology overall was positive as it allowed more
+			competition into the computer world of CPUs and how they are two major companies for it now, AMD and Intel. Now the market isn't full dominated by Intel and is a competition between both with many different
+			price points and options for many in the world. People probably had used the technology in both positive and negative ways, positive in gaming, editing, doing their jobs, and negatively as maybe hacking, doing
+			illegal things, and more. </p>
+</body>
+
+</html>
