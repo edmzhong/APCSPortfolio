@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width">
+				<title>Unit 4</title>
+				<link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+		<center><div class="topnav">
+				<a class="active" href="Index.html">Home</a>
+				<a href="Unit 2.html">Unit 2</a>
+				<a href="Unit 3.html">Unit 3</a>
+                <a href="Unit 4.html">Unit 4</a>
+                <a href="Unit 5.html">Unit 5</a>
+                <a href="Unit 6.html">Unit 6</a>
+              </div> </center>
+              
+<h1>6.2</h1>
+<h1>Internet: Basic Concepts and Terminology</h1>
+
+<p id="Question">Q1:What is bandwidth? What do you think affects the differences in bandwidth globally as well as in different locations in the U.S.?</p>
+<p id="Answer">A1:Bandwidth is the maximum rate of data transfer. I think the amount of data being transferred will affect the differences in bandwidth globally just as it affects in different locations in the U.S.</p>
+
+<p id="Question">Q2:What is latency? How does it differ from bandwidth? Why is it a useful measure?</p>
+<p id="Answer">A2:Latency is the amount of time that it takes for a transfer of data to travel to the target/receiver. It differs from bandwidth since latency is about speed while bandwidth is the capacity and amount of data. 
+    Latency is a useful measure because it refers to speed of the data traveling . </p>
+
+<p id="Question">Q3:What is the digital divide? What are some ways to reduce the effects of the digital divide?</p>
+<p id="Answer">A3:The digital divide is the gap between those who have access to the Internet, technology, etc. and the ones who does not have the same accessibility. Some ways to reduce the effects of the digital
+divide is to have universal access for all, more support by the community and others, more programs by the government, and much more! </p>
+
+<h1>6.3</h1>
+<h1>Internet Architecture and Packet Switching</h1>
+
+<p id="Question">Q1:(POGIL Activity 1) How does the geographical distance between the source and destination hosts on a network affect latency?</p>
+<p id="Answer">A1:The further you are from the location that you are trying to reach via packets the latency will gradually become greater. 
+	Some other factors that could affect latency would be how good your connection to the internet is. For example if the school instead had slower internet, the latency to Stanford would in turn become larger.</p>
+
+<p id="Question">Q2:What are the benefits of packet switching?</p>
+<p id="Answer">A2:Benefits of packet switching are that it is more efficient use of the network, can be rerouted if any errors occur, can be shared in the same channel by many users, and much more!</p>
+
+<p id="Question">Q3:(POGIL Activity 2) Missing Packets. What should happen if a packet goes missing? Who (which layer) would handle this? What action would they have to take? 
+	And what additional information would be needed in the packet in order to handle it?</p>
+<p id="Answer">A3:If a packet goes missing then the Transport layer would handle it since they are in charge or reordering and finishing up the message so it can be passed onto the Application. 
+	Action needs to be taken would be checking how many bits or parts there are to the messages and checking if all parts match such as if it is 5/5 instead of ⅘. </p>
+
+<p id="Question">Q4:(POGIL Activity 2) Security/Privacy. As the packets are being transmitted through the network, can people other than the sender and receiver read the messages? 
+	What methods can we use to protect the message?</p>
+<p id="Answer">A4:Yes, other people can read the messages and methods to protect these messages are having a more secure and encrypted network.</p>
+
+<h1>6.4</h1>
+<h1> I.P. Addresses and Domain Names</h1>
+
+<p id="Question">Q1:What is DNS and how does it work? How does DNS help you connect to a web server like Amazon?</p>
+<p id="Answer">A1:DNS is the Domain Name System and this is used for everyone to access information online by using domain names. It is like a book filled with names that needs browsers to lead you to IP addresses
+	of the domain names. It works by converting the domain name such as <a href=https://Google.com>Google.com</a> into an IP address for the computer to understand where then it will access that site. DNS helps
+	me access Amazon by letting me search their domain name, then translate it to my computer telling its IP address and then letting me access it. Without DNS, I would not be able to connect to Amazon since there 
+	would be no system to access the domain itself.</p>
+
+<p id="Question">Q2:Include a screenshot of your message log in the DNS Simulation app in Activity 1.</p>
+<p id="Answer">A2: <br> <img src="Images/6.4 Q2 Screenshot.JPG" height="400px" width="500px"></p>
+
+<h1>6.5</h1>
+<h1>Caesar Cipher App</h1>
+
+<p id="Question">Q1:Post a screenshot of your code for the caesarDecrypt function.</p>
+<p id="Answer">A1: <br>
+	<img src="Images/6.5.png" height="500px" width="500px">
+</p>
+
+<p id="Question">Q2:Explain the difference between a function and a procedure. Give an example of a function.</p>
+<p id="Answer">A2:A function is the result of the procedure or instructions, while procedure are the instructions but does not produce a result without the function. An example of this are the encryptions we have been doing
+	in class. The function would be the encryption with the result of an encrypted message while the procedure are the algorithms used to give the result of the encryption, when ran, it will produce an encrypted message 
+	because of the function. </p>
+
+<p id="Question">Q3:Explain the difference between global and local variables. Why are local variables easier to debug than global variables?</p>
+<p id="Answer">A3:Global variables are available to all codes and can be used multiple times and represented as a whole since it is global. Local variables are specific to one code and can only change that one code.
+	Local variables are easier to debug because they only focus on one specific part of a code versus global variables where it can change your whole code.</p>
+
+<h1>6.6</h1>
+<h1>Cryptography Basics</h1>
+
+<p id="Question">Q1:Explain briefly how the following substitution ciphers can be broken: Caesar cipher, Simple substitution cipher, Vigenere cipher.</p>
+<p id="Answer">A1:<font color="red">Caesar cipher</font> can be broken with brute force since all it does is shift letters in the alphabet. It can be broken in 25 keys with brute force.
+	<br>
+	<font color="blue">Simple substitution cipher </font>can be broken with frequency analysis which is used to detect the patterns of letters used.
+	<br>
+	<font color="green">Vigenere cipher</font> can be broken with either brute force or frequency analysis on the amount of letters in the gap and which letters are repeated or used.</p>
+
+<p id="Question">Q2:Define symmetric encryption.</p>
+<p id="Answer">A2:The key is both used for encryption and decryption of the message.</p>
+
+<h1>6.7</h1>
+<h1>Cryptography: Securing The Internet </h1>
+
+<p id="Question">Q1:Explain in your own words how public key encryption is not symmetric.</p>
+<p id="Answer">A1:Public key is not symmetric because there are two different keys, one for public and one for private. The two different keys both have different roles and since they are different from each other, it makes the public key encryption asymmetric.</p>
+
+<p id="Question">Q2:Cryptography relies on open standards - a protocol or standard that is publicly available. Why are open standards necessary?</p>
+<p id="Answer">A2:Open standards are necessary as it sets a rule and boundary for all to agree on and this allows us all to communicate and encrypt in a way we can understand and relate. If there was not open standards then the browsers we use would not be able to 
+	do its job of encrypting and decrypting messages/</p>
+
+<h1>6.8</h1>
+<h1>Debugging Caesar Cipher </h1>
+
+<p id="Question">Q1:For each of the 5 bugs in the Caesar Cipher app, explain what the bug was, how to fix it, and the type of error (semantic or syntax). If you wish, you can take a picture of your corrected blocks and then annotate it to identify and describe the bugs you 
+	fixed.</p>
+<p id="Answer">A1: <br> <br>
+
+	 <font color="red">Bug 1: </font> 
+
+	 <br>
+
+	  <img src="Images/6.8 b1.png"> 
+
+	 <br> 
+
+	 This bug was a semantic error since it used TextBoxPlainText instead of TextBoxCipherText. The wrong code was used which made the program not behave as intended.
+
+	  <br> 
+	  
+	  <br>
+
+<font color="blue">Bug 2 & 3: </font> 
+
+<br> 
+
+<img src="Images/6.8 b2.png" height="500px"width="600px"> 
+
+<br> 
+
+The bug was a semantic error since it did not use the correct blocks of plaintext and ciphertext to get the result we wanted. 
+<br> 
+
+<br>
+
+<font color="green">Bug 4: </font>
+
+ <br>
+
+  <img src="Images/6.8 b3.png">
+
+   <br> 
+
+   The bug was a semantic error because it used the block of ciphertext for decrypting instead of plaintext. 
+
+   <br> 
+
+   <br>
+
+<font color="purple">Bug 5: </font> 
+
+<br>
+
+ <img src="Images/6.8 b4.png"> 
+
+ <br> 
+
+ The bug was a semantic error since the code wouldn't have worked due to the wrong code of the integral 5. It would've given a wrong result. 
+
+ <br>
+ 
+  <br>
+
+</p>
+
+<h1>6.9</h1>
+<h1>Impacts of CS: Cryptography and the Government </h1>
+
+<p id="Question">Q1:What does it mean to say that the government would like to have a back door to the encrypted data on a mobile phone?</p>
+<p id="Answer">A1:The government wants another way to get into the encrypted data of the phone without breaking and decrypting the passwords or defense of the phone. </p>
+
+<p id="Question">Q2:What are the main legal and ethical reasons for letting the government have a back door?</p>
+<p id="Answer">A2:The main and legal reasons for letting the government have a back door is so they can have an easier access to the vital information of that person's information without wasting as much time to decrypt and break into the phone. The saved
+	time will help their investigation and assist them faster on solving the case.</p>
+
+<p id="Question">Q3:What are the main legal and ethical reasons against letting the government have a back door?</p>
+<p id="Answer">A3:The main and legal reasons against letting the government have a back door to the phones is that they will have too much power and literally make us feel like we have no privacy. They can use and access our phones as if it was theirs and do 
+	whatever they want to it. It ruins the whole rule of  privacy and security for the citizens. </p>
+
+<p id="Question">Q4:Do you think Apple should abide by the Court’s decision and unlock the mobile phone in the San Bernardino case? Explain.</p>
+<p id="Answer">A4:I think Apple should not abide to the Court's decision to unlock the phone since they are the company themselves and should be able to control their own rights of their consumers and their own set of regulations as a company. If they
+	unlocked the phone, it would make all consumers vulnerable and targeted by the government, giving all power to them and none to the citizens. If Apple listened for this case, then it would've been like a wildfire and start to spread to other cases referencing back to
+	this case saying how it was unlocked and that will cause more trouble to Apple and their company's rules and safety to the consumers.</p>
+
+
+
+
+
